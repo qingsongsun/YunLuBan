@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==================================supermaket==========================================*/
+#supermaket{ width:100%;  float:left;}
+#supermaket .supermaket{ width:1200px;  margin:0 auto;}
+
+/*==================================supermaket==========================================*/
+
+#supermaket .supermaket .content{ width:204px;  float:left; margin-right:55px;}
+#supermaket .supermaket .content p:nth-child(1){ font-size:18px; width:204px; height:40px; line-height:40px; color:#000; border-bottom:1px #000 solid; margin-top:30px;}
+#supermaket .supermaket .content ul:nth-child(2){ float:left; width:204px;}
+#supermaket .supermaket .content ul:nth-child(2) li{ float:left;width:204px; padding-bottom:15px; border-bottom:1px solid #dededf; }
+#supermaket .supermaket .content ul:nth-child(2) li:nth-last-child(1){ float:left;width:204px; padding-bottom:75px; border:0px !important; }
+#supermaket .supermaket .content ul:nth-child(2) li span:nth-child(1) { float:left; margin-top:10px;}
+#supermaket .supermaket .content ul:nth-child(2) li span:nth-child(1) a{width:204px; height:40px;line-height:40px; color:#000; border-bottom:0px !important; margin-top:0px !important;}
+#supermaket .supermaket .content ul:nth-child(2) li span:nth-child(2) { float:left; font-size:14px;color:#000;}
+#supermaket .supermaket .content ul:nth-child(2) li span:nth-child(2) a { float:left; color:#000; font-size:14px;}
+#supermaket .supermaket .content ul:nth-child(2) li span:nth-child(2) p { float:left;color:#000; font-size:14px; margin-left:5px; margin-right:5px;}
+.sulli2 a { float:left; color:#000; font-size:14px; width:100%;}
+/*==================================supermaket-Search & Articles==========================================*/
+
+#supermaket .supermaket .scontent{ width:941px;  float:left;}
+/*==================================supermaket-Search & Articles(搜索栏)==========================================*/
+.search{ margin-top:30px; float:left; margin-left:589px; margin-bottom:9px; }
+.search .select dt{ 
+width:109px !important; 
+height:30px !important; 
+padding:0px; margin:0px !important; 
+float:left; 
+border:1px solid #e7e7e8 !important; 
+font-size:14px;
+background-color:#f2f2f2;
+border-top-left-radius:2px;
+border-top-right-radius:0px;
+border-bottom-right-radius:0px;
+border-bottom-left-radius:2px; 
+line-height: 30px;
+text-align: center;
+}
+.search .select dd {position:absolute;left:0;top:29px;border:1px solid #dededf;background:#fff;display:none;}
+.search .select dd ul{width:110px;overflow:auto; float: left; background-color: #ffffff;}
+.search .select dd ul li {width:110px !important;  line-height:30px;height:30px;  color:#000000; float: left; text-align: center; font-size: 14px; margin-bottom: 0 !important; cursor: pointer; }
+.search .select dd ul li:hover{ background-color: #f2f2f2;}
+
+#supermaket .supermaket .scontent input:nth-child(2){ width:200px; height:30px;float:left;padding:0;-webkit-box-shadow:inset 0 0px 0px rgba(0,0,0,.1);-moz-box-shadow:inset 0 0px 0px rgba(0,0,0,.1);box-shadow:inset 0 0px 0px rgba(0,0,0,.1); border:0px; border-top:1px solid #e7e7e8 !important; border-bottom:1px solid #e7e7e8 !important;text-indent:10px; font-size:12px ;}
+#supermaket .supermaket .scontent input:nth-child(3){ width:41px; height:32px; float:left;border-top-left-radius:0px;
+border-top-right-radius:2px;
+border-bottom-right-radius:2px;
+border-bottom-left-radius:0px; 
+}
+/*==================================supermaket-Search & Articles(栏目标题)==========================================*/
+.name{ width:941px; height:225px; float:left; margin-bottom:55px;}
+.name .left{ width:403px; height:225px; float:left; margin-right:15px;}
+.name .left p:nth-child(1){ width:403px; height:45px; float:left; color:#000; font-size:40px; margin-bottom:20px}
+.name .left p:nth-child(2){ width:403px; height:160px; float:left; color:#000; font-size:16px; line-height:20px; overflow:hidden;}
+.name .right{ width:523px; height:225px; float:left;}
+.name .right img{ width:100%; height:100%; float:left}
+
+
+/*==================================supermaket-Search & Articles(栏目分类选择==========================================*/
+.option{ width:941px; float:left; border-top:1px solid #dededf;}
+.option span:nth-child(1){width:941px; float:left;}
+.option span:nth-child(1) a{  height:50px; float:left; color:#727171; font-size:18px; line-height:50px; text-align:center; margin-left:25px; margin-right:25px;}
+
+.option ul:nth-child(2){width:939px; height:37px; float:left; border:1px solid #dededf;
+background-color:#f2f2f2;}
+.option ul:nth-child(2) li{ float:left; font-size:14px; color:#000; line-height:37px;}
+.option ul:nth-child(2) li:nth-child(1) { background-color:#dededf; height:37px; width:115px; text-indent:25px; font-size:14px !important;}
+
+.zh-play1 .select dt{ 
+width:130px;!important; 
+height:37px; !important; 
+padding:0px; margin:0px !important; 
+float:left; 
+border:0px !important; 
+font-size:14px;
+background-color:#f2f2f2;
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+border-bottom-right-radius:0px;
+border-bottom-left-radius:0px; 
+line-height: 37px;
+text-align: left;
+background: url(../image/ico/ico.gif) no-repeat 110px center;
+text-indent:10px !important;
+}
+.zh-play1 .select dd {position:absolute;left:0;top:37px;border:1px solid #dededf;background:#fff;display:none;}
+.zh-play1 .select dd ul{width:130px;overflow:auto; float: left; background-color: #ffffff;}
+.zh-play1 .select dd ul li {width:130px !important; line-height:37px;height:37px;  color:#000000; float: left; text-align: left !important; font-size: 14px; margin-bottom: 0 !important; cursor: pointer; margin: 0px !important;}
+.zh-play1 .select dd ul li:hover{ background-color: #f2f2f2 !important;}
+.zh-play1 .select dd ul li {background-color: #ffffff !important; text-indent:10px !important; }
+
+
+.option ul:nth-child(2) li:nth-child(5){ width:120px; height:37px; float:left;margin-left:20px;}
+
+.option ul:nth-child(2) li:nth-child(5) input{ width:40px !important; height:18px !important; float:left; border:0px !important; margin-top:8.5px; border:1px solid #dededf !important}
+
+.option ul:nth-child(2) li:nth-child(5) p{ width:20px; height:37px; float:left; line-height:37px; font-size:14px; text-align:center;}
+
+.option ul:nth-child(2) li:nth-child(7){ width:140px; height:37px; float:right;}
+
+.option ul:nth-child(2) li:nth-child(7) p{ width:50px; height:37px; float:left; line-height:37px; font-size:12px; text-align:center;font-size:14px;}
+.zh-play2 .select{ background-color: #ffffff;margin-top:8.5px !important;}
+.zh-play2 .select dt{ 
+width:90px;!important; 
+height:20px; !important; 
+padding:0px; margin:0px !important; 
+float:left; 
+border:0px !important; 
+font-size:12px;
+background-color:#f2f2f2;
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+border-bottom-right-radius:0px;
+border-bottom-left-radius:0px; 
+line-height: 20px;
+text-align: left;
+background: url(../image/ico/ico.gif) no-repeat 80px center;
+text-indent:5px !important;
+
+}
+.zh-play2 .select dd {position:absolute;left:0;top:20px;border:1px solid #dededf;background:#fff;display:none;}
+.zh-play2 .select dd ul{width:90px;overflow:auto; float: left; background-color: #ffffff;}
+.zh-play2 .select dd ul li {overflow:hidden; width:90px !important; line-height:20px;height:20px !important;color:#000000; float: left; text-align: left !important; font-size: 12px !important; margin-bottom: 0 !important; cursor: pointer; margin: 0px !important;}
+.zh-play2 .select dd ul li:hover{ background-color: #f2f2f2 !important;}
+.zh-play2 .select dd ul li {background-color: #ffffff !important; text-indent:5px !important; }.zh-play2 .select dd ul li:nth-child(1){font-size: 12px !important;}
+
+
+.option ul:nth-child(2) li:nth-child(6){  height:37px; float:right; margin-left:10px;}
+
+.option ul:nth-child(2) li:nth-child(6) div:nth-child(1){ width:9px !important; height:9px !important; float:left; background:url(../image/ico/select_anniu.png) no-repeat  !important ; background-position:0px -9px !important; margin-left:10px; margin-top:14px; margin-bottom:149px; margin-right:10px;}
+
+.option ul:nth-child(2) li:nth-child(6) div:nth-child(1):hover{ width:9px !important; height:9px !important; float:left; background:url(../image/ico/select_anniu.png) no-repeat  !important ; background-position:0px 0px !important; margin-left:10px; margin-top:14px; margin-bottom:149px; margin-right:10px;}
+
+.option ul:nth-child(2) li:nth-child(6) p{  height:37px; float:left; line-height:37px; font-size:12px; text-align:center;font-size:14px;}
+
+.option ul:nth-child(2) li:nth-child(6) div:nth-child(3){ width:9px !important; height:9px !important;float:left; background:url(../image/ico/select_anniu.png) no-repeat !important ; background-position:-9px -9px !important; margin-left:10px; margin-top:14px; margin-bottom:149px; margin-right:10px; }
+
+.option ul:nth-child(2) li:nth-child(6) div:nth-child(3):hover{ width:9px !important; height:9px !important;float:left; background:url(../image/ico/select_anniu.png) no-repeat !important ; background-position:-9px 0px !important; margin-left:10px; margin-top:14px; margin-bottom:149px; margin-right:10px;}
+
+
+/*==================================supermaket-Search & Articles(商品)==========================================*/
+#ware{ width:941px;  float:left; margin-top:25px; margin-bottom:35px;}
+#ware ul{ width:941px; float:left;}
+#ware ul li{ width:224px; height:280px; float:left;  margin-right:15px; margin-bottom:25px;}
+#ware ul li:nth-child(4n){ margin-right:0px !important; }
+#ware ul li a:nth-child(1){ width:224px; height:224px; float:left;}
+#ware ul li a:nth-child(1) img{ width:224px; height:224px; float:left;}
+#ware ul li a:nth-child(2){ padding-top:15px; float:left; width:224px; height:23px; font-size:20px; color:#000;text-overflow: ellipsis;overflow: hidden;white-space: nowrap; }
+#ware ul li a:nth-child(2):hover{ color:#adc808;}
+#ware ul li p:nth-child(3){ max-width:107px; height:23px; float:left;  margin-right:10px; color:#000; font-size:20px; text-overflow: ellipsis;overflow: hidden;white-space: nowrap; }
+#ware ul li p:nth-child(4){ max-width:107px; height:23px; float:left; 
+text-overflow: ellipsis;overflow: hidden;white-space: nowrap; color:#c9caca; font-size:20px;  text-decoration:line-through;}
+
+#ware span{ width:941px; height:30px; float:left; margin-top:20px;}
+#ware span a{ font-size:16px; height:30px; width:80px; background-color:#dededf; float:left; text-align:center; line-height:30px; color:#fff; margin-right:10px;}
+
+#ware span a:hover{ font-size:16px; height:28px; width:78px; background-color:inherit; float:left; text-align:center; line-height:30px; color:#abc808; margin-right:10px; border:1px solid #abc808;}
+/*==================================supermaket-Search & Articles(体验馆)==========================================*/
+#store{ width:941px;  float:left; border-top:1px solid #000;}
+#store span { width:941px; height:55px; float:;} 
+#store span p{ height:55px; font-size:28px; line-height:55px; color:#000; float:left;} 
+#store span a{height:55px; font-size:18px; line-height:55px; color:#9fa0a0; float:right; margin-left:20px;}
+
+#store ul { width:941px;  float:left; margin-bottom:35px; margin-top:10px;} 
+#store ul li { width:307px; height:280px; float:left; margin-right:10px;}
+#store ul li:nth-last-child(1) { margin-right:0px !important;}
+#store ul li a:nth-child(1){ width:307px; height:180px; float:left;}
+#store ul li a img{width:307px; height:180px; float:left;}
+#store ul li a:nth-child(2){ width:307px; height:20px; margin-top:10px; font-size:18px; color:#000; float:left;}
+#store ul li p:nth-child(3){ width:307px; height:18px; margin-top:10px; font-size:14px; color:#000; float:left;}
+#store ul li p:nth-child(4){ width:307px; height:18px; font-size:14px; color:#000; float:left;}
+

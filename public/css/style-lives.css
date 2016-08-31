@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#lives{ width:100%;  float:left; background:url(../image/yyqs01.jpg) no-repeat center top ; padding-top:75px !important;}
+#lives .content{ width:100%; height:350px;margin:0 auto; margin-top:75px !important;  }
+
+/*==================================select_bar==========================================*/
+.select_bar{width:100%; float:left; }
+.select_bar .bcontent{ width:1198px; height:auto; margin:0 auto; border:1px solid #ddddde; overflow:hidden; }
+.select_bar .bcontent span{ width:1198px;  float:left; border-bottom:1px solid #ddddde;  background:#f2f2f2; }
+.select_bar .bcontent span:nth-last-child(1){ border-bottom:0px !important;}
+.select_bar .bcontent span div:nth-child(1){ width:200px; float:left; color:#000; text-align:center; line-height:40px; font-size:16px; height:inherit !important; }
+.select_list{width:998px;float:left;  height:auto; background-color:#fff;}
+.select_bar .bcontent span ul{  float:left; color:#000;  line-height:40px; font-size:16px; width:958px; margin-left:40px; }
+.select_bar .bcontent span ul li{ line-height:40px; margin-right:40px;  font-size:16px; color:#000 ; float:left; text-align:center;	}
+.select_bar .bcontent span ul li a{ color:inherit;}
+.select_bar .bcontent span ul li a:hover{ color:#abc808;}
+/*==================================scontent==========================================*/
+#lives .scontent{ width:100%; float:left; background-color:#f2f2f2; position: relative;  height: 500px;  }
+#lives .scontent  ul { width:1090px;  float: left;   padding-bottom:0px !important; background-color: #ffffff; padding: 35px 55px; position: absolute; left: 50%; margin-left: -600px;  }
+#lives .scontent  ul li{ width:343px; height:348px; float:left; margin-right:30.5px; margin-bottom:30.5px;}
+#lives .scontent  ul li:nth-child(3n){ margin-right:0px !important;}
+#lives .scontent  ul li a:nth-child(1) img { width:345px; height:300px; float:left;}
+
+#lives .scontent  ul li span{ margin-top:20PX; float:left; width:214px; height:40px;background-color:#ffffff ;}
+#lives .scontent  ul li span:nth-child(2n-1){ width:129px !important; height:40px !important; text-align:center; line-height:37px; background-color:#b2b2b2 ; }
+#lives .scontent  ul li span:nth-child(2n-1) a{color:rgb(255,255,255);}
+#lives .scontent  ul li span P{ font-size:18px; width:200px; color:#000;}
+#lives .scontent  ul li span P:nth-child(2n){ font-size:12px !important; color:#b2b2b2;}
+
+/*==================================lm==========================================*/
+span{ width:100%; float:left; background-color:#f2f2f2 ;}
+
+.lm-div{ width:100%; height:65px; float:left; }
+.lm-div ul{ width:1200px; height:20px; margin:25px auto; }
+.lm-div ul li{ margin-left:10px; margin-right:10px; float:left; font-size:14px; color:#000;}
+.lm-div ul li a{ color:#000;}
+
+.lm-xx{ width:1200px; height:80px; margin:20px auto;}
+.lm-xx img,.lm-xx p{  float:left;}
+.lm-xx img { width:80px; height:80px; border-radius:80px;}
+.lm-xx p:nth-child(2){ font-size:30px; color:#000; margin-left:30px; margin-right:30px; }
+.lm-xx p{ font-size:20px;line-height:80px; color:#898989; margin-right:15px;}
+
+.lm-list{ width:1200px; margin:25px auto; }
+.lm-list ul li{ float:left;  background-color:#FFF; width:1200px; padding-bottom: 50px; margin-bottom:50px;}
+.lm-list-xx { float:left; padding:50px; width:1100px; padding-bottom:0px !important;}
+.lm-list-xx .no { width:36px; height:36px; float:left; border-radius:36px; font-size:20px; text-align:center; line-height:36px; color:#fff; background-color:#b2b2b2;margin-bottom:10px; }
+.lm-list-xx .notxt { height:36px; float:left; font-size:20px; line-height:36px; color:#000; margin-left:15px; width:1049px; margin-bottom:10px;}
+.lm-list-xx  p{ height:16px; float:left; font-size:14px; line-height:16px; color:#898989; margin-left:51px; margin-bottom:5px; }
+.lm-list-img { float:left; padding:25px 50px; width:1100px; padding-bottom:0px !important;}
+.lm-list-img .no { width:36px; height:36px; float:left; border-radius:36px; font-size:20px; text-align:center; line-height:36px; color:#fff; background-color:#b2b2b2;margin-bottom:10px; }
+.lm-list-img .no img{ width:20px; height:20px; float:left; padding:8px;}
+.lm-list-img .notxt { height:36px; float:left; font-size:20px; line-height:36px; color:#000; margin-left:15px;margin-bottom:10px;width:1049px;}
+.abc8058{ background-color:#abc808 !important;}
+.lm-list-img .liveimg{ width: 350px; height: 200px; float: left;}
+.lm-list-img .liveimg img { width: 350px; height: 200px; float: left;}
+.mr25 { margin-right: 25px;}
+
+.liveimgjqon{ z-index:4; display:none; position: fixed; top: 50%; left: 50%; max-width: 100%; max-height: 100%; } 
+

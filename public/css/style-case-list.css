@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*==================================Route_designer==========================================*/
+#route_designer{width:100%; float:left; padding-top:25px;  background-color:#f2f2f2; }
+#route_designer .content{ width:1200px; height:54px; margin:0 auto;}
+#route_designer .content .left{ width:1060px; height:54px; float:left;}
+#route_designer .content .left ul{ width:1060px; height:54px; float:left; }
+#route_designer .content .left ul li{ margin-left:10px; margin-right:10px; float:left; font-size:14px; color:#000;}
+#route_designer .content .left ul li a{ color:#000;}
+#route_designer .content .right{ width:140px; height:54px; float:left; }
+#route_designer .content .right img:nth-child(1){ width:48px !important; height:48px !important; float:left; border:2px solid #fff; border-radius:48px;margin-right:8px;}
+#route_designer .content .right img:nth-child(1):hover{ border:2px solid #abc808; }
+#route_designer .content .right p:nth-child(2){ color:#000; width:80px; height:20px; float:left; font-size:16px; margin-bottom:3px; margin-top:6px; overflow:hidden;}
+#route_designer .content .right a:nth-child(3){ color:#9fa0a0; width:80px; height:13px; float:left;  font-size:11px;}
+#route_designer .content .right a:nth-child(3):hover{ color:#abc808; width:80px; height:13px; float:left; font-size:11px; }
+
+/*====================================case_preview========================================*/
+#preview  { width:100%; float:left; padding-bottom:100px; background-color:#f2f2f2;}
+#preview .content{ width:100%;  margin:0 auto; height:500px; background:#9FA0A0; margin-top:180px !important;  }
+#preview .content div{ position:absolute; margin-top:0px; left:50%; margin-left:-2250px;}
+#preview .content div ul li{ float:left; width:900px; height:500px;}
+#preview .content div ul li img{ float:left; width:900px; height:500px;}
+.pm{ width:900px; height:500px; background:rgba(0,0,0,0.5);;position:absolute; margin-top:0px; left:50%; z-index:3}
+.left1{margin-left:-1350px;}
+.right1{margin-left:450px;}
+#preview .scontent{ width:1200px;  margin:0 auto;   margin-top:25px !important;}
+#preview .scontent ul{ margin:0 auto; display:table;}
+#preview .scontent li{ float:left;  font-size:18px; color:#000; height:18px; line-height:18px; padding-right: 18px; padding-left: 18px; border-right: 1px solid #000;;}
+#preview .scontent li:nth-last-child(1) { border: 0px !important;}
+#preview .scontent li a{ float:left;  font-size:18px; color:inherit; height:18px; line-height:18px;}

@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==================================advert==========================================*/
+#advert{ width:100%; height:181px; margin-top:20px; margin-bottom:10px; float:left;}
+#advert .content{ width:1200px; height:181px; margin:0 auto;}
+#advert .content img{width:1200px; height:181px;}
+/*==================================select_bar==========================================*/
+.select_bar{width:100%; float:left; margin-bottom:35px; }
+.select_bar .content{ width:1198px; height:auto; margin:0 auto; border:1px solid #ddddde; overflow:hidden; }
+.select_bar .content span{ width:1198px;  float:left; border-bottom:1px solid #ddddde;  background:#f2f2f2; }
+.select_bar .content span:nth-last-child(1){ border-bottom:0px !important;}
+.select_bar .content span div:nth-child(1){ width:200px; float:left; color:#000; text-align:center; line-height:40px; font-size:16px; height:inherit !important; }
+.select_list{width:998px;float:left;  height:auto; background-color:#fff;}
+.select_bar .content span ul{  float:left; color:#000;  line-height:40px; font-size:16px; width:958px; margin-left:40px; }
+.select_bar .content span ul li{ line-height:40px; margin-right:40px;  font-size:16px; color:#000 ; float:left; text-align:center;	}
+.select_bar .content span ul li a{ color:inherit;}
+.select_bar .content span ul li a:hover{ color:#abc808;}
+/*====================================booking========================================*/
+#booking{ width:100%;float:left; margin-bottom:35px;}
+#booking .content{ width:1200px; height:450px; margin:0 auto;}
+#booking .content span:nth-child(1){ width:430px; height:448px; float:left; margin-right:55px; border-top: solid 1px #ddddde; border-bottom: solid 1px #ddddde;}
+#booking .content span:nth-child(1) p:nth-child(1){ width:430px; height:33px;  float:left; margin-top:35px; margin-bottom:55px; font-size:33px; color:#000;}
+#booking .content span:nth-child(1) p:nth-child(2){ width:430px; height:24px;  float:left;margin-bottom:20px; font-size:24px; color:#000;}
+#booking .content span:nth-child(1) p:nth-child(3){ width:430px; height:18px;  float:left;margin-bottom:20px; font-size:18px; color:#000;}
+#booking .content span:nth-child(1) p:nth-child(4){ width:430px; height:18px;  float:left;margin-bottom:45px; font-size:18px; color:#000;}
+#booking .content span:nth-child(1) p:nth-child(5){ width:430px; height:16px;  float:left;margin-bottom:55px; font-size:16px; color:#9fa0a0;}
+#booking .content span:nth-child(1) a:nth-child(6){ width:289px; height:44px;  float:left;margin-bottom:20px; font-size:24px; color:#fff; background:#f4981c; line-height:44px; text-align:center; margin-right:141px;}
+#booking .content span:nth-child(1) a:nth-child(6):hover{ width:287px; height:42px;  float:left;margin-bottom:20px; font-size:24px; color:#F4981C; background:#fff; line-height:42px; text-align:center; margin-right:141px; border:1px solid #F4981C;}
+#booking .content span:nth-child(1) a:nth-child(7){ width:430px; height:18px;  float:left; font-size:18px; color:#000; }
+#booking .content span:nth-child(2){ width:715px; height:450px; float:left;}
+#booking .content span:nth-child(2) img{width:715px; height:450px; float:left;}
+
+/*====================================preview========================================*/
+#preview { width:100%;float:left; margin-bottom:35px;}
+#preview .content{ width:100%;  margin:0 auto; height:500px; background:#9FA0A0; margin-top:180px !important;  }
+#preview .content div{ position:absolute; margin-top:0px; left:50%; margin-left:-2250px;}
+#preview .content div ul li{ float:left; width:900px; height:500px;}
+#preview .content div ul li img{ float:left; width:900px; height:500px;}
+.pm{ width:900px; height:500px; background:rgba(0,0,0,0.5);;position:absolute; margin-top:0px; left:50%; z-index:3}
+.left1{margin-left:-1350px;}
+.right1{margin-left:450px;}
+#preview .scontent{ width:1200px;  margin:0 auto;   margin-top:25px !important;}
+#preview .scontent ul{ margin:0 auto; display:table;}
+#preview .scontent li{ float:left;  font-size:18px; color:#000; height:18px; line-height:18px; padding-right: 18px; padding-left: 18px; border-right: 1px solid #000;;}
+#preview .scontent li:nth-last-child(1) { border: 0px !important;}
+#preview .scontent li a{ float:left;  font-size:18px; color:inherit; height:18px; line-height:18px;}
+
+/*==================================list_lbrz==========================================*/
+#list_lbrz{width:100%;  float:left; background-color:#fff;  }
+#list_lbrz .content{width:1200px; height:64px;border-bottom:1px solid #d5d5d5; width:1200px; margin:0 auto; margin-top:157px; height:64px;background:#f2f7da; overflow:hidden;}
+#list_lbrz .content ul{ float:left;}
+#list_lbrz .content ul li{  height:62px; float:left; font-size:18px;  line-height:62PX; margin-left:50px;margin-right:70px;}
+#list_lbrz .scontent{ width:1200px;   margin:0 auto; }
+#list_lbrz .scontent span{ display: none;}
+.scontent_list ul{ width:1200px; float:left; background-color:#fff;}
+.scontent_list ul:nth-child(1) li:nth-child(1), .scontent_list ul:nth-child(1) li:nth-child(2), .scontent_list ul:nth-child(1) li:nth-child(3){ color:#000;}
+.scontent_list ul:nth-child(2n){ width:1200px;  float:left; background-color:#f2f2f2;}
+.scontent_list ul li:nth-child(1){ width:210px;  float:left; font-size:14px; line-height:40px; color:#727171; padding:0px 20px;} 
+.scontent_list ul li:nth-child(2){ width:150px; float:left;  font-size:14px; line-height:40px; color:#727171;}
+.scontent_list ul li:nth-child(3){ width:760px; float:left; font-size:14px; line-height:40px; color:#727171;padding:0px 20px;}
+
+#list_lbrz_list2,#list_lbrz_list3,#list_lbrz_list4,#list_lbrz_list5,#list_lbrz_list6,#list_lbrz_list7,#list_lbrz_list8{ display:none;}
+/*==================================fucai==========================================*/
+
+#fucai{width:100%;  float:left; margin-bottom:75px; }
+#fucai .content{width:1200px;   height:189px!important;width:1200px; margin:0 auto; margin-top:157px;background-color:#fff;}
+#fucai .content span{ width:139px; height:189px; float:left; border:1px solid #dededf !important; margin-right:10.2px;}
+#fucai .content span:nth-last-child(1){margin-right:0px !important;}
+#fucai .content span img{ width:139px; height:139px; float:left;}
+#fucai .content span p{ width:119px; height:50px; padding:10px; float:left; text-align:center; font-size:18px; line-height:30px; color:#000;}
+#fucai .content span p b{ color:#abc808; font-size:30px; line-height:30px; }
+#fucai .content a{ width:160.8px; height:160.8px; float:left; border:1px solid #dededf; margin-right:10px; margin-bottom:10px;}
+#fucai .content a img{width:160.8px; height:160.8px;}
+#fucai .content a:nth-child(7n){ margin-right:0px !important;}
+/*==================================shigong==========================================*/
+#shigong{width:100%;  float:left; background-color:#d5d5d5; }
+#shigong .content{width:1200px; height:401px;margin:0 auto; margin-top:157px;}
+#shigong .content .left{ width:67px; height:67px;float:left; margin-top:144.5px; margin-bottom:144.5px; margin-right:67px; background: url(../image/ico/398-fx.png)  no-repeat !important ; background-position:0px 0px !important; }
+#shigong .content .ct{ width:932px; height:356px;position:absolute; margin-top:0px; overflow:hidden; }
+#shigong .content .ct ul{ width:2552px; }
+#shigong .content .ct ul li{width:293px; height:356px; float:left; margin-right:26px;}
+#shigong .content ul li img{ width:263px; height:263px; padding:15px; background-color:#fff; float:left;}
+#shigong .content ul li p{width:263px; height:33px; float:left; padding:15px; background-color:#abc808; color:#fff; line-height:33px; font-size:30px; text-align:center; }
+#shigong .content .right{ width:67px; height:67px;  float:left; margin-top:144.5px; margin-bottom:144.5px; margin-left:999px;background: url(../image/398-fx.png)  no-repeat !important ; background-position:-67px 0px !important;}
+
+/*=====================================buxiang==========================================*/
+#buxian{width:100%;  float:left; background-color:#ffff; }
+#buxian .content{width:1200px; height:401px;margin:0 auto; margin-top:157px;}
+#buxian .content span:nth-child(1){ width:350px; height:360px; float:left; padding:25px; background-color:#abc808;}
+#buxian .content span:nth-child(1) a{ color:#fff; font-size:20px; line-height:45px; width:100%; float:left;}
+#buxian .content span:nth-child(1) a:hover{ color:#000 !important;}
+#buxian .content img{width:800px; height:410px; float:left; }
+
+/*=====================================ziji==========================================*/
+#ziji{width:100%;  float:left; background-color:#ffff; }
+#ziji .content{width:1200px; height:401px; margin:0 auto; margin-top:157px;}
+#ziji .content img{ width:400px; height:408px; float:left;}
+#ziji .content ul:nth-child(2){ width:400px; height:400px; float:left;}
+#ziji .content ul:nth-child(3){ width:400px; height:400px; float:left;}
+#ziji .content ul li{ padding:10px; color:#000; width:380px; float:left; font-size:20px; text-align:center;}
+#ziji .content ul li:nth-child(1){ padding:20px !important; font-size:30px; color:#fff; width:360px !important; }
+#ziji .content ul:nth-child(2) li:nth-child(1){ background-color:#abc808 !important;}
+#ziji .content ul:nth-child(2) li:nth-child(n){ background-color:#fff;}
+#ziji .content ul:nth-child(2) li:nth-child(2n){ background-color:#f2f7da;}
+#ziji .content ul:nth-child(3) li:nth-child(1){ background-color:#494645 !important;}
+#ziji .content ul:nth-child(3) li:nth-child(n){ background-color:#fff;}
+#ziji .content ul:nth-child(3) li:nth-child(2n){ background-color:#e4e3e3;}
+/*=====================================fuwu==========================================*/
+#fuwu{width:100%;  float:left; background-color:#ffff; }
+#fuwu .content{width:1200px; margin:0 auto; margin-top:157px;}
+#fuwu .content span { width:1070px; height:237.5px; float:left; padding:0px 65px; padding-bottom:45px !important;}
+#fuwu .content span div{ width:237.5px; height:237.5px; margin-right:40px; float:left; background-color:#d5d5d5; border-radius:237.5px; overflow:hidden;}
+#fuwu .content span div i{width:237.5px; height:237.5px; background-color:#abc808; float:left;}
+.i1{margin-left:-118.75px; margin-top:-118.75px; }
+.i2{margin-left:118.75px; margin-top:-118.75px; }
+.i3{margin-left:-118.75px; margin-top:118.75px; }
+.i4{margin-left:118.75px; margin-top:118.75px; }
+#fuwu .content span div p{ width:207.5px; height:80px; position:absolute; background-color:#fff; margin:5px !important;  border-radius:227.5px; padding:73.75px 10px; color:#000; font-size:30px; line-height:40px;}
+#fuwu .content span div:nth-last-child(1){ margin-right:0px !important;}
+#fuwu .content p { width:1200px;  float:left; color:#727171; font-size:20px; line-height:40px; text-align:center; margin-bottom:45px;}
+/*=====================================baoz==========================================*/
+#baoz{width:100%;  float:left; background-color:#f2f2f2; }
+#baoz .content{width:1070px; margin:0 auto; padding:65px;}
+/*=====================================beizhu==========================================*/
+#beizhu{ width:100%;  float:left; margin-bottom:30px;margin-top:75px;}
+#beizhu .content{width:1200px;margin:0 auto; }
+#beizhu .content p:nth-child(1){ font-size:18px; color:#000; height:18px; width:1200px; margin-bottom:30px; float:left;}
+#beizhu .content p{ font-size:12px; color:#000; height:12px; width:1200px; margin-bottom:10px;float:left;}
+#beizhu .content p:nth-last-child(1){ font-size:12px; color:#000; height:12px; width:1200px; margin-top:10px;float:left;}

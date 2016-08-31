@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==================================fucai==========================================*/
+
+#temp{width:100%;  float:left;  background-color:#f2f2f2;}
+#temp .content{width:1200px; margin:0 auto;background-color:#fff; margin-top:65px; margin-bottom:65px; height:inherit;}
+.al1{ width:1050px; font-size:40px; float:left; padding:0 75px;background-color:#fff; }
+.al2{ width:1050px; font-size:18px; padding:28px 75px;background-color:#fff; float:left; line-height:30px; margin-bottom:65px;}
+.al1 p{ width:1050px ;padding-bottom:28px; border-bottom:1px solid #dededf; color:#abc808; padding-top:28px}
+.al3{ width:1050px; padding-bottom:28px;   color:#000; float:left; background:#fff; padding:0 75px;} 
+.al3 li { float:left; margin-bottom:28px;}
+.al3 li:nth-child(1){ padding-top:28px; width:1050px;  }
+.al3 li:nth-last-child(1) {  margin-bottom:0px !important; padding-bottom:28px; border-bottom:1px solid #dededf;}
+.al3 li:nth-child(1){width:1050px; font-size:24px; color:#000;  float:left; margin-bottom:15px; }
+.al3 li p{ font-size:14px ;color:#000; float:left;width:1080px;line-height:20px; float:left;  }
+.al3 li p:nth-child(2){ color:#898989;}
+#temp .content ul:nth-last-child(1)  {  margin-bottom:65px;}
+#temp .content ul:nth-last-child(1)  li:nth-last-child(1){ border:0px !important; padding-bottom:60px;}
+.al4 { width:900px; float:left; margin-bottom:65px;  color:#000; background:#fff; font-size:16px; padding:35px 150px; line-height:30px; }
+.al4 li{ width:900px; float:left; margin-bottom:10px;}
+.al4 li:nth-child(1) textarea { margin-left:10px; line-height:16px; font-size:16px; line-height:30px; padding:15px;}
+.al4 li:nth-child(2) p input{margin-left:10px; line-height:16px; font-size:14px; line-height:30px; margin-right:50px; width:255px; padding:0px 15px;}
+.al4 li:nth-child(2) p { float:left;}
+.al4 li:nth-child(3) input{ border:0px; background-color:#abc808; font-size:16px; color:#fff; width:240px; padding:10px 0px; margin-left:83px; margin-top:25px;}
+
+.al5{ width:1050px; font-size:18px; padding:28px 75px;background-color:#fff; float:left; line-height:30px; padding-bottom:0px !important; }
+.al5 li{width:1050px; float:left;font-size:14px; line-height:14px;}
+.al5 li:nth-child(1){ font-size:24px !important; padding-bottom:15px; line-height:24px !important;}
+.al5 li:nth-child(2){ color:#898989; padding-bottom:15px;}
+.al5 li p {  line-height:24px; color:#898989; }
+.al5 li p:nth-child(1){color:#000 !important; padding-top:15px; }
+.al5 li:nth-last-child(1){ padding-bottom:30px;  border-bottom:1px solid #dededf; }
+
+.al6 {  width:1050px; font-size:18px; padding:28px 75px;background-color:#fff; float:left; line-height:30px;padding-bottom:0px !important;  }
+.al6 li{ width:1050px; font-size:14px; background-color:#fff; float:left; line-height:20px; margin-bottom:65px;}
+.al6 li:nth-child(1){width:1050px; font-size:24px; color:#000;  float:left; margin-bottom:15px; }
+.al6 li:nth-last-child(1) {  margin-bottom:0px !important; padding-bottom:28px; border-bottom:1px solid #dededf;}

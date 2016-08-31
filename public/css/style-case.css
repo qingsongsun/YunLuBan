@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==================================advert==========================================*/
+#advert{ width:100%; height:181px; margin-top:20px; margin-bottom:10px; float:left;}
+#advert .content{ width:1200px; height:181px; margin:0 auto;}
+#advert .content img{width:1200px; height:181px;}
+/*==================================select_bar==========================================*/
+.select_bar{width:100%; float:left; margin-bottom:35px; }
+.select_bar .content{ width:1198px; height:auto; margin:0 auto; border:1px solid #ddddde; overflow:hidden; }
+.select_bar .content span{ width:1198px;  float:left; border-bottom:1px solid #ddddde;  background:#f2f2f2; }
+.select_bar .content span:nth-last-child(1){ border-bottom:0px !important;}
+.select_bar .content span div:nth-child(1){ width:200px; float:left; color:#000; text-align:center; line-height:40px; font-size:16px; height:inherit !important; }
+.select_list{width:998px;float:left;  height:auto; background-color:#fff;}
+.select_bar .content span ul{  float:left; color:#000;  line-height:40px; font-size:16px; width:958px; margin-left:40px; }
+.select_bar .content span ul li{ line-height:40px; margin-right:40px;  font-size:16px; color:#000 ; float:left; text-align:center;	}
+.select_bar .content span ul li a{ color:inherit;}
+.select_bar .content span ul li a:hover{ color:#abc808;}
+/*====================================case========================================*/
+#case{ width:100%;  float:left; background:#f2f2f2;}
+#case .content{ width:1200px;margin:40px auto; }
+#case .content ul{ float:left; }
+#case .content ul li:nth-child(10n+1){ width:474px; height:474px; float:left; margin-right:10px; margin-bottom:10px; background-color:#333;}
+#case .content ul li:nth-child(10n+2),#case .content ul li:nth-child(10n+4),#case .content ul li:nth-child(10n+7),#case .content ul li:nth-child(10n+10){ width:474px; height:232px; float:left; margin-right:10px; margin-bottom:10px; background-color:#333;}{ width:464px; height:232px; float:left; margin-right:10px; margin-bottom:10px; background-color:#333; }
+
+#case .content ul li:nth-child(10n+3),#case .content ul li:nth-child(10n+5){ width:232px; height:232px; float:left; margin-bottom:10px; background-color:#333;}
+
+#case .content ul li:nth-child(10n+6),#case .content ul li:nth-child(10n+9)
+{ width:232px; height:232px; float:left; margin-bottom:10px; margin-right:10px; background-color:#333;}
+#case .content ul li:nth-child(10n+8){ width:474px; height:474px; margin-bottom:10px; background-color:#333; float:right; }
+#case .content ul li{ position:relative; overflow:hidden;}
+#case .content ul li img{ width:100%;  float:left;}
+
+#case .content ul li  a:nth-child(2){  height:30px; float:left; border-radius:3px; position:absolute; left:10px; top:15px; background:url(../image/xing.png) no-repeat #FFF; background-position:6.5px 6px !important; text-align:left; color:#9fa0a0; font-size:16px; line-height:30px;text-indent:25px;display:none;padding: 0px 5px;}
+#case .content ul li  a:nth-child(3){ height:30px; float:left; background-color:#FFF; border-radius:3px; left:110px; top:15px;position:absolute;background:url(../image/dianzan04.png) no-repeat #FFF; background-position:6.5px 6px !important; text-align:left; color:#9fa0a0; font-size:16px; line-height:33px;text-indent:25px; display:none;padding: 0px 5px;}
+#case .content ul li  a:nth-child(4){ height:30px; float:right; background-color:#8CBE23; border-radius:3px; right:10px; top:15px;position:absolute;text-align:center; color:#fff; font-size:16px; line-height:30px;display:none; padding: 0px 5px; }
+
+#case .content ul li:nth-child(10n+3) a:nth-child(3) ,#case .content ul li:nth-child(10n+5) a:nth-child(3),#case .content ul li:nth-child(10n+6) a:nth-child(3) ,#case .content ul li:nth-child(10n+9) a:nth-child(3){  height:30px; float:left; background-color:#FFF; border-radius:3px; left:10px !important; top:55px !important;position:absolute;padding: 0px 5px; }
+
+
+#case .content ul li:nth-child(10n+2) img ,#case .content ul li:nth-child(10n+4) img,#case .content ul li:nth-child(10n+7) img,#case .content ul li:nth-child(10n+10) img{ margin-top:-200px; }
+
+/* 收藏 与 点赞 JSCSS样式*/
+
+.scon{background:url(../image/ico/xing2.png) no-repeat #fff !important; color: #8CBE23 !important;}
+.dzon{background:url(../image/ico/dianzan04-2.png) no-repeat #fff !important;color: #8CBE23 !important;}
